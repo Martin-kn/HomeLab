@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>HomeLab</title>
+    <link rel="icon" href="linux.png" type="image/icon type">
+</head>
+<body>
+    <nav class="navbar"> 
+        <div> 
+            <ul class="menu">
+                <li><a href="https://martin-kn.github.io/CV/" class="btn-1"> Home </a></li>
+                <li><a href="https://github.com/Martin-kn/" class="btn-1"> Github </a></li>
+            </ul>
+        </div> 
+    </nav>  
+    <div class="box">
+        <h1 style="color:#A5D5D5">Proyectos Personales</h1>
+    
+        <br><p>
+            Laboratorio en proceso, para poder practicar redes, seguridad e implementar diferentes servicios para uso personal.
+        </p><br>
+        
+        <div class="user one">
+        </div>   
+        <br><br>
+        
+        <h3 style="color:#A5D5D5">Firewall/Router</h3>
+        <br><p class="text">
+        Tiene instalado Pfsense, cuenta con un i3 6100U, 8gb de ram y dos interfaces de red. La idea es poder utilizarlo también como IDS (sistema de detección de intrusos) con Suritcata , para poder hacerlo me hace falta seguir investigando y saber como utilizar sus reglas correctamente. Estoy utilizando PfBlockerNG junto con unas listas para bloquear ads,tracking y páginas maliciosas. Ntopng para monitorear el tráfico.
+        </p>
+        <br>
+        <h3 style="color:#A5D5D5">Switch</h3>
+        <br><p>
+        Cisco sf-300-24 managed, lo cambié hace poco para poder crear Vlans anteriormente estaba utilizando un Netgear gs108.
+        </p><br>
+        <h3 style="color:#A5D5D5">Otros equipos</h3>
+        <br>
+        
+        <ul>
+            <li> Amd Ryzen 5 2600: workstation, que también uso para virtualizar con kvm/qemu. </li>
+            <br>
+            <li class="text"> Amd Fx 6300 con Proxmox: Open Media Vault ,Portainer, Ansible, Jellyfin, Nextcloud, algunas Wiki, entre otros. Cuenta con una tarjeta de red adicional que utilizo para conectar algunas vm’s con otra red.
+            </li>
+        </ul><br>
+
+        <div class="user three">    
+        </div> 
+        <br><br>
+        <ul>
+            <li> Raspberry Pi b3+: samba, nginx, wiki. </li><br>
+            <li> Raspberry Pi b3+: motionEyeOS, sistema de vigilancia. </li><br>
+            <li class="text"> También tengo un mother itx 1151 con algunos de los pines del socket dobaldos que me regalo un amigo, solo faltaría terminar de repararlo y conseguirle un procesador. Sería el reemplazo perfecto del Amd Fx 6300 (atx), más que nada por el consumo eléctrico y el espacio físico que ocupa ya que por el momento no necesito tantos puertos PCIe. </li>
+        </ul>
+        <br>
+        <h3 style="color:#A5D5D5">Domótica</h3>
+        <br><p class="text">
+        Otra parte del proyecto es domótica, la cual quedó un poco en el olvido, lo que se ve a continuación es una raspberry conectada a un relay el cual se activa con un script en python.
+        </p><br>
+
+        <div class="user two">
+        </div>
+
+        <br><br><p class="text">
+        La idea es poder ejecutar desde la terminal un comando y prender las luces de la habitación. Lo más práctico sería tener algún asistente open source y colocar varios dispositivos wifi conectados al mismo, de esta forma se puede controlar por ejemplo del teléfono con una app sin estar escribiendo comandos.
+        </p>
+        <p class="text">
+        En estos momentos prefiero usar el tiempo libre en aprender ciberseguridad , programación o temas relacionados a gnu/linux, en un futuro me gustaría retomarlo y poder llevar a cabo varias ideas que tengo dando vueltas en la cabeza.
+        </p><br>
+
+        <h3 style="color:#A5D5D5">Mejoras a futuro:</h3>
+        
+        <br>
+        <ul class="text"> 
+            <li> Rack a medida, la idea es hacerlo en madera, colocarle unas ruedas para poder movilizarlo sin problemas y que sea lo más compacto posible.
+            </li>
+            <li> Patch panel</li>
+        </ul>
+       
+</div> 
+</body>
+</html>
