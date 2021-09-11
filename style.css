@@ -27,7 +27,7 @@ body {
 
 .navbar {
     display: flex;
-    justify-content: space-around;
+    justify-content: right;
     background-color: #A5D5D5;
 }
 
